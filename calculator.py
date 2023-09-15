@@ -27,3 +27,19 @@ if __name__ == "__main__":
     print("Difference of " + str(a) + " and " + str(b) + " is ", sub(a, b))
     print("Product of " + str(a) + " and " + str(b) + " is ", mul(a, b))
     print("Division of " + str(a) + " and " + str(b) + " is ", div(a, b))
+
+
+def test_add():
+    assert add(1,1) == 2
+
+def test_sub():
+    assert sub(1,1) == 0
+
+def test_mul():
+    assert mul(1,1) == 1
+
+def test_div():
+    assert div(2,1) == 2
+
+#def test_add():
+#    assert add(1,1) == 1
